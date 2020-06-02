@@ -13,6 +13,50 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zapthemes.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_banners.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_config_pages.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_paragraphs.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_popup.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_twig.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_utils.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_settings.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/zap_media.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/dynamic_views_row_display.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:zapdevelopers/bootstrap_volta.git"
         }
     ],
     "require": {
@@ -25,7 +69,18 @@
         "drush/drush": "^9.7.1 | ^10.0.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "zaporylie/composer-drupal-optimizations": "^1.0",
+        "zap/dynamic_views_row_display": "^1.0",
+        "zap/zap_banners": "^1.0.3",
+        "zap/zap_config_pages": "^1.0.0",
+        "zap/zap_media": "^1.0.3",
+        "zap/zap_paragraphs": "^1.0.0",
+        "zap/zap_popup": "^1.0.0",
+        "zap/zap_settings": "^1.0.0",
+        "zap/zap_themes": "dev-master",
+        "zap/zap_twig": "^1.0.0",
+        "zap/zap_utils": "^1.0.0",
+        "volta/bootstrap_volta": "dev-master"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8.0"
